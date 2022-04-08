@@ -14,9 +14,14 @@ const Intro = ( ) => {
                            <div className="i-title-item">Student</div>
                            </div>
                    </div>
+                       <div className="i-desc">
+                           I develop for customers of all sizes,specializing in creating stylish,mordern website,web services and online stores.
+                       </div> 
                </div> 
            </div>
-           <div className="i-right">right</div>
+           <div className="i-right">
+               <img src=""  alt=""  className="i-img"/>
+           </div>
         </div>
     )
 }

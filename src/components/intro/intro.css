@@ -5,6 +5,9 @@
 
  .i-left{ 
      flex:1;
+     display:flex;
+     align-items:center;
+     justify-content: center;
  }
 
  .i-right{
@@ -13,6 +16,11 @@
 
  .i-left-wrapper{
      padding:50px; 
+     height:50%;
+     background-color: #D48166;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
  }
 
  .i-intro{
@@ -52,7 +60,7 @@
      height:50px;
      font-size:30px;
     font-weight:bold;
-    color:#59b256;
+    color: #E6E2DD;
       display: flex;
     align-items: center;  
  }
