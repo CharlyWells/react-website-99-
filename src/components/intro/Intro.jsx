@@ -1,5 +1,5 @@
 import "./intro.css"
-import Me from "../../img/Me.jpg"
+import Me from "../../img/Me.png"
 const Intro = ( ) => {
     return(
         <div className= "i">
@@ -15,10 +15,25 @@ const Intro = ( ) => {
                            <div className="i-title-item">Student</div>
                            </div>
                    </div>
-                       <div className="i-desc">
+                       <p className="i-desc">
                            I develop for customers of all sizes,specializing in creating stylish,mordern website,web services and online stores.
-                       </div> 
+                       </p> 
                </div> 
+               <svg
+                  width="75"
+                  height="75"
+                  viewBox="0 0 75 75"
+                  fill="none"
+                  stroke="black"
+                  className="i-scroll"
+                  xmlns="http://www.ws.org/200/svg">
+
+                  <g id="scroll">
+                      <path></path>
+                      </g>    
+                      
+
+               </svg>
            </div>
            <div className="i-right">
                <div className="i-bg"></div>
