@@ -1,3 +1,41 @@
 .aboutMe{
     height: 100vh;
+    display:flex;
+    align-items:center;
 }
+
+.aboutMe-left{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    height:100%;
+
+}
+
+.aboutMe-right{
+ flex:1;
+}
+
+.aboutMe-card.bg{
+    position:absolute;
+    top:50px;
+    left:50px;
+   background-color:#D48166;
+}
+
+.aboutMe-card{
+    width:60%;
+    height:70vh;
+    border-radius:30px;
+    position:relative;
+    overflow: hidden;
+}
+
+.aboutMe-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+ 
