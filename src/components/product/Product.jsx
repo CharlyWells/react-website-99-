@@ -1,10 +1,10 @@
-import "./Product.css"
-const product =()=> {
+import "./Product.css";
+const Product =()=> {
     return(
         <div className="">
            card
         </div>
-    )
-}
+    );
+};
 
-export default product;
+export default Product;

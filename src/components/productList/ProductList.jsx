@@ -1,5 +1,5 @@
 import "./ProductList.css"
-import product from "../product/Product"
+import Product from "../product/Product"
 
 const ProductList= ()=>  {
     return (
@@ -13,11 +13,11 @@ const ProductList= ()=>  {
            </p>
         </div>
         <div className="ProductList-list">
-            <product/>
-            <product/>
-            <product/>
-            <product/>
-            <product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
 
         </div>
         </div>
