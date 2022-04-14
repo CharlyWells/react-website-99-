@@ -1,0 +1,86 @@
+.Work{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+
+ .Work-texts{
+     width:65%
+ }
+  
+
+ .Work-title {
+    font-size: 38px;
+    font-weight:400;
+   
+   
+ }
+
+ .Work-card.bg{
+   position:absolute;
+   top:50px;
+   left:50px;
+  
+ 
+}
+
+
+ .Work-title-t{
+    font-size: 38px;
+    font-weight: 200;
+   
+   
+ }
+
+ .Work-description{
+    margin:20px 0px;
+    font-weight:300px;
+   
+ }
+
+ .Work-left{
+   flex:1;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   position:relative;
+   height:100%;
+
+}
+
+ .Work-card{
+   width:60%;
+   height:70vh;
+   border-radius:30px;
+   position:relative;
+   overflow: hidden;
+  
+}
+
+ .Work-list{
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+ }
+
+ 
+
+.Work-right{
+   flex:1;
+   background-color:#D48166 ;
+   color:#E6E2DD;
+    
+  }
+
+
+  .Work-img{
+   width:50%;
+   height:50%;
+   object-fit:cover;
+}  
+
+  
+ 

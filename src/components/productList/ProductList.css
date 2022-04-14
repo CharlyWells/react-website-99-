@@ -29,7 +29,7 @@
 
  .ProductList-description{
     margin:20px 0px;
-    font-weight:300px;
+    font-weight:200px;
    
  }
 
@@ -64,6 +64,7 @@
    flex:1;
    background-color:#D48166 ;
    color:#E6E2DD;
+    
   }
 
 
@@ -73,5 +74,12 @@
    object-fit:cover;
 }  
 
+
+.ProductList-title {
+   font-size: 38px;
+   font-weight:400;
+  
+  
+}
   
  
