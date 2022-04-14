@@ -10,14 +10,46 @@
      width:65%
  }
 
- .ProductList-title{
-    font-size: 50px;
-    font-weight: 600;
+
+ .ProductList-card.bg{
+   position:absolute;
+   top:50px;
+   left:50px;
+  
+ 
+}
+
+
+ .ProductList-title-t{
+    font-size: 38px;
+    font-weight: 400;
+   
+   
  }
 
- .ProductList-desc{
+ .ProductList-description{
     margin:20px 0px;
+    font-weight:300px;
+   
  }
+
+ .ProductList-left{
+   flex:1;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   position:relative;
+   height:100%;
+
+}
+
+ .ProductList-card{
+   width:60%;
+   height:70vh;
+   border-radius:30px;
+   position:relative;
+   overflow: hidden;
+}
 
  .ProductList-list{
       width:100%;
@@ -25,3 +57,21 @@
       flex-wrap: wrap;
       justify-content: space-between;
  }
+
+ 
+
+.ProductList-right{
+   flex:1;
+   background-color:#D48166 ;
+   color:#E6E2DD;
+  }
+
+
+  .ProductList-img{
+   width:50%;
+   height:50%;
+   object-fit:cover;
+}  
+
+  
+ 
