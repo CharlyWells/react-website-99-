@@ -1,0 +1,45 @@
+.contactme{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+}
+
+.contactme-left{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    height:100%;
+
+}
+
+.contactme-right{
+ flex:1;
+}
+
+.contactme-card.bg{
+    position:absolute;
+    top:50px;
+    left:50px;
+    
+}
+
+.contactme-card{
+    width:60%;
+    height:70vh;
+    border-radius:30px;
+    position:relative;
+    overflow: hidden;
+}
+
+ 
+ 
+
+  
+
+.contactme-title{
+    font-weight:400;
+}
+
+ 
