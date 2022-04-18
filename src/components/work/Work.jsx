@@ -6,7 +6,7 @@ const work= ()=>  {
         <div className="Work">
         <div className="Work-texts">
         <div className="Work-card bg"></div>
-            <h1 className="Work-title">My Work</h1>
+            <h2 className="Work-title">My Work</h2>
             
         </div>
         <div className="Work-left">

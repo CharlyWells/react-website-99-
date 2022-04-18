@@ -44,7 +44,7 @@
 }
 
  .ProductList-card{
-   width:50%;
+   width:70%;
    height:50vh;
    border-radius:30px;
    position:relative;
@@ -68,6 +68,8 @@
    flex:1;
    background-color:#D48166 ;
    color:#E6E2DD;
+   margin-left: 100px;
+    
     
   }
 
@@ -84,11 +86,14 @@
 
   
 
-  .h1.ProductList-title {
-   height:25px;
+   .ProductList-title {
+   
     font-size:30px;
    font-weight:bold;
-   
+   background-color: #D48166;
+   color:white;
+   height: 50px;
+   margin-bottom: 100px;
    
     
   
@@ -101,6 +106,16 @@
  font-weight:400;
 }
 
+img {
+   width:60%;
+    height:70vh;
+    border-radius:30px;
+    position:relative;
+    overflow: hidden;
+}
+ 
+
+ 
  
   
  

@@ -1,5 +1,5 @@
 .Work{
-    padding: 50px 100px;
+    padding:0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,10 +12,14 @@
   
 
  .Work-title {
-    font-size: 38px;
-    font-weight:400;
-   
-   
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 100px;
+   background-color: #D48166;
+   color: azure;
+   height:50px;
+   margin: 100px;
+    
  }
 
  .Work-card.bg{
@@ -28,8 +32,9 @@
 
 
  .Work-title-t{
-    font-size: 38px;
-    font-weight: 200;
+    font-size:28px;
+    font-weight:400;
+     
    
    
  }
@@ -73,7 +78,9 @@
    flex:1;
    background-color:#D48166 ;
    color:#E6E2DD;
-    
+   margin-top: 100px;
+    margin-right: 100px;
+     
   }
 
 
@@ -84,4 +91,7 @@
 }  
 
   
+iframe{
+   margin-top: 100px;
+}
  

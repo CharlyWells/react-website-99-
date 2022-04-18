@@ -1,0 +1,26 @@
+ .myfooter {
+     background-color:#D48166;
+     width: 100%;
+     padding: 20px 0;
+     text-align: center;
+     color: white;
+     
+ }
+
+ .footer{
+     margin-top: 250px;
+ }
+
+ p{
+     font-size: 14px ;
+     word-spacing:2px;
+     text-transform: capitalize;
+
+ }
+
+ span{
+     text-transform: uppercase;
+     opacity: 4;
+     font-weight: 200;
+      
+ }

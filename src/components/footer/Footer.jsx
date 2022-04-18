@@ -3,14 +3,18 @@ import "./Footer.css"
 const Footer = ( ) => {
     return(
           
-               <svg>
-                       <div>
-                       <footer>
-                           © 2009 HTML5Doctor.com
+          
+                       <div className="footer">
+                            
+
+                       <footer className="myfooter">
+                           
+                            <p>Copyright &copy;2022 Charlotte Welington . Designed by <span>Charlywellsnok</span> </p>    
+                            
                        </footer>
                        </div> 
           
-        </svg>
+      
             
     )
 }

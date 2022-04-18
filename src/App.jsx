@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import Toggle from "./components/toggle/Toggle";
 const App = () => {
     return(
-        <div style= {{backgroundColor:"#white " ,color:"black",   }}>
+        <div style= {{backgroundColor:"#white " ,    }}>
         <Intro />
         <About />
         <ProductList/>
