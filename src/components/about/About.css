@@ -16,13 +16,21 @@
 
 .aboutMe-right{
  flex:1;
+ justify-content: center;
+ align-items: center;
+  color: white;
+ background-color:#D48166;
+ width: 50%;
+ height:18%; 
+ margin-right:6%;
+   
 }
 
 .aboutMe-card.bg{
     position:absolute;
     top:50px;
     left:50px;
-   background-color:#D48166;
+   background-color:hsl(15, 56%, 62%);
 }
 
 .aboutMe-card{
@@ -47,10 +55,26 @@
 
 }
 
-.aboutMe-title{
-    font-weight:400;
+.h1.aboutMe-title{
+    font-weight:200;
+    
+
 }
 
-.aboutMe-desc{
-    font-weight:300px;
+h1 {
+
+     font-size:35px;
+    font-weight: 400px;
+    color:black;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+}
+
+ p {
+        font-weight:200px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 17px;
+        background-color: transparent;
+      
 }

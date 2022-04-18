@@ -27,6 +27,7 @@
 .i-intro{
     font-size:30px;
     font-weight:300;
+     
 }
 
 .iname{
@@ -87,4 +88,8 @@
     position:absolute;
     top:0;
     right:0;
+   }
+
+   .h1.i-name {
+       color:black;
    }

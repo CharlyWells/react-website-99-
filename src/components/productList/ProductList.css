@@ -1,5 +1,5 @@
  .ProductList{
-    padding: 50px 100px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,11 +44,15 @@
 }
 
  .ProductList-card{
-   width:60%;
-   height:70vh;
+   width:50%;
+   height:50vh;
    border-radius:30px;
    position:relative;
    overflow: hidden;
+   align-items:center;
+   justify-content:center;
+   
+    
 }
 
  .ProductList-list{
@@ -69,17 +73,34 @@
 
 
   .ProductList-img{
-   width:50%;
-   height:50%;
-   object-fit:cover;
+   width:60%;
+   height:70vh;
+   object-fit: fill;
+   position:absolute;
+    top:50px;
+    left:50px;
+   background-color:hsl(15, 56%, 62%);
 }  
 
-
-.ProductList-title {
-   font-size: 38px;
-   font-weight:400;
   
+
+  .h1.ProductList-title {
+   height:25px;
+    font-size:30px;
+   font-weight:bold;
+   
+   
+    
   
 }
+
+.ProductList {
+   color: #D48166;
+   display: flex;
+ align-items: center;
+ font-weight:400;
+}
+
+ 
   
  

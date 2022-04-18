@@ -1,12 +1,7 @@
-.contactme{
-    height: 100vh;
-    display:flex;
-    align-items:center;
-}
-
+ 
 .contactme-left{
-    flex:1;
-    display:flex;
+    
+    
     align-items:center;
     justify-content:center;
     position:relative;
@@ -15,8 +10,14 @@
 }
 
 .contactme-right{
- flex:1;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    height:100%;
+
 }
+
+ 
 
 .contactme-card.bg{
     position:absolute;
@@ -40,6 +41,73 @@
 
 .contactme-title{
     font-weight:400;
+     
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    height:100%;
+  
+
+     
 }
 
+input {
+    width: 100%;
+    padding: 0;
+  margin: 8px 0;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  }
+   
+
+  .container-form{
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    height:100%;
+
+  }
+
+
+  form{
+      margin-top: 20px;
+      margin-left:200px;
+  }
  
+
+  button{
+   margin-left:350px;
+    
+  }
+
+
+  input{
+      width:80% ;
+      height: 50px;
+      border-bottom: 1px solid black;
+      margin:10px 0px;
+      font-size: 14px;
+       
+      
+      
+  }
+
+  textarea{
+      width:80%;
+      font-size:14px;
+       
+  }
+
+ button{
+     border:none;
+     padding:15px;
+     background-color:#D48166;
+     color:white;
+     font-weight:500;
+     cursor:pointer ;
+      
+ }
+
+ .div  h1{
+     font-family: 'Lato', sans-serif; 
+ }
