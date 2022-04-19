@@ -11,29 +11,33 @@
  }
   
 
- .Work-title {
+ .Work-title{ 
     font-size: 28px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 200px;
    background-color: #D48166;
    color: azure;
    height:50px;
-   margin: 100px;
+    
+     
+   
     
  }
 
- .Work-card.bg{
-   position:absolute;
-   top:50px;
-   left:50px;
+  
+
+
+  
+
   
  
-}
 
 
  .Work-title-t{
     font-size:28px;
     font-weight:400;
+    color: brown;
+    
      
    
    
@@ -42,6 +46,8 @@
  .Work-description{
     margin:0;
     font-weight:300px;
+    font-size: 16px;
+   
      
    
  }
@@ -78,20 +84,22 @@
    flex:1;
    background-color:#D48166 ;
    color:#E6E2DD;
-   margin-top: 100px;
-    margin-right: 100px;
+   margin-top: 5px;
+    margin-right:20px;
+    margin-left:20px;
+    border-radius: 20px;
+    height:300px;
+    width:300px;
+     
      
   }
 
 
-  .Work-img{
-   width:50%;
-   height:50%;
-   object-fit:cover;
-}  
+   
 
   
 iframe{
-   margin-top: 100px;
+   margin-top: 20px;
+
 }
  

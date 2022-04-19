@@ -27,6 +27,7 @@
 .i-intro{
     font-size:30px;
     font-weight:300;
+    color: brown;
      
 }
 
@@ -93,3 +94,36 @@
    .h1.i-name {
        color:black;
    }
+
+   .i-desc{
+       font-size:17px;
+       background-color:#D48166;
+     color: white;
+     font-style: italic;
+     border-radius: 10px;
+     height: 40px;
+    padding: 0%;
+      
+   }
+
+   @media screen and (max-width:480px ){
+
+    .i{
+        flex-direction: column;
+        text-align: center;
+    }
+       
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-desc{
+        display: none;
+    }
+   }
+
+   

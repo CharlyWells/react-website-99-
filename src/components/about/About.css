@@ -23,6 +23,7 @@
  width: 50%;
  height:18%; 
  margin-right:6%;
+ border-radius: 20px;
    
 }
 
@@ -48,15 +49,12 @@
 }
  
 
-.aboutMe-Award{
-    width:120px;
-    height:120px;
-    border-radius: 20px;
+ 
 
-}
-
-.h1.aboutMe-title{
+ .aboutMe-title{
     font-weight:200;
+  color: brown;
+  font-size: 28px;
     
 
 }
@@ -78,3 +76,25 @@ h1 {
         background-color: transparent;
       
 }
+
+
+.aboutMe-desc {
+    font-size: 16px;
+}
+
+@media screen and (max-width:480px) {
+
+    .aboutMe-right{
+          height: 300px;
+           
+    }
+
+    .aboutMe-img{
+        width:500px;
+    }
+}
+ 
+     
+ 
+     
+ 

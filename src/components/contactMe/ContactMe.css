@@ -109,6 +109,7 @@ input {
      color:white;
      font-weight:500;
      cursor:pointer ;
+     border-radius: 10px;
      
       
  }
@@ -116,3 +117,28 @@ input {
  .div  h1{
      font-family: 'Lato', sans-serif; 
  }
+
+ @media screen and (max-width:480px){
+     .contactme{
+         width:800px;
+          
+     }
+
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width:400px;
+        height:50px;
+        
+        margin-left: 0;
+        margin-right :10px;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+}

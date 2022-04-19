@@ -1,28 +1,28 @@
  .ProductList{
     padding: 0;
     display: flex;
-    flex-direction: column;
+   flex-direction:column;
     align-items: center;
     text-align: center;
  }
 
- .ProductList-texts{
-     width:65%
- }
+  
 
-
- .ProductList-card.bg{
+ .ProductList-card-bg{
    position:absolute;
-   top:50px;
+   top:10px;
    left:50px;
+   bottom: 50px;
   
  
 }
 
 
  .ProductList-title-t{
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 400;
+    color: brown;
+
    
    
  }
@@ -30,6 +30,7 @@
  .ProductList-description{
     margin:20px 0px;
     font-weight:200px;
+    font-size: 16px;
    
  }
 
@@ -44,7 +45,7 @@
 }
 
  .ProductList-card{
-   width:70%;
+   width:35%;
    height:50vh;
    border-radius:30px;
    position:relative;
@@ -68,17 +69,21 @@
    flex:1;
    background-color:#D48166 ;
    color:#E6E2DD;
-   margin-left: 100px;
+   margin-left:20px;
+   margin-right:20px;
+   margin-bottom: 10px;
+   width :50px ;
+    
     
     
   }
 
 
   .ProductList-img{
-   width:60%;
+   width:30%;
    height:70vh;
    object-fit: fill;
-   position:absolute;
+   position:relative;
     top:50px;
     left:50px;
    background-color:hsl(15, 56%, 62%);
@@ -87,13 +92,13 @@
   
 
    .ProductList-title {
-   
+    width: 150%;
     font-size:30px;
    font-weight:bold;
    background-color: #D48166;
    color:white;
-   height: 50px;
-   margin-bottom: 100px;
+   height:50px;
+   margin-bottom:10px;
    
     
   
@@ -107,13 +112,23 @@
 }
 
 img {
-   width:60%;
-    height:70vh;
+   width:0;
+    height:20vh;
     border-radius:30px;
     position:relative;
     overflow: hidden;
 }
  
+
+@media screen and(max-width:480px){
+
+   .ProductList-card{
+     height:10px;
+      
+   }
+
+}
+    
 
  
  

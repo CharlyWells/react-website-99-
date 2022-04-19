@@ -5,7 +5,8 @@ const ProductList= ()=>  {
     return (
         <div className="ProductList">
         <div className="ProductList-texts">
-        <div className="ProductList-card bg"></div>
+        <div className="ProductList-card-bg"> 
+        </div>
             <h1 className="ProductList-title">What am I good at?</h1>
             
         </div>
@@ -24,6 +25,7 @@ const ProductList= ()=>  {
         </div>
          </div>
          </div>
+       
        
             
     

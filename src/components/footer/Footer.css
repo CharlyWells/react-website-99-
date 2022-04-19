@@ -24,3 +24,19 @@
      font-weight: 200;
       
  }
+
+ @media screen and (max-width:480px){
+   .footer{
+         width:180%;
+      
+         
+     }
+
+     .myfooter{
+      padding-right: 300px;
+       width:700px;
+      
+       
+     }
+     
+ }
