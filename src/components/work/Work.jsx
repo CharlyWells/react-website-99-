@@ -5,7 +5,7 @@ const work= ()=>  {
     return (
         <div className="Work">
         <div className="Work-texts">
-        <div className="Work-card-bg"> 
+        <div className="Work-card-bg"></div> 
             <h2 className="Work-title">My Work</h2>
             
         </div>
@@ -24,7 +24,6 @@ const work= ()=>  {
         
         </p>
         </div>
-         </div>
          </div>
          </div>
        
